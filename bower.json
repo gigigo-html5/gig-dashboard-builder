@@ -1,0 +1,21 @@
+{
+  "name": "gig-dashboard-builder",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gigigo-html5/gig-dashboard-builder",
+  "authors": [
+    "Pedro José Peña Jerez <malagactiva@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "front/resources/public/assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gig-button": "~0.0.2"
+  }
+}

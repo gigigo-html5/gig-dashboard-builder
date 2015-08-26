@@ -1,0 +1,65 @@
+{
+    "environments":{
+        "live" : {
+            "urlBase" : "cms.gigigo.com/",
+            "port": {
+                "cms": "8001",
+                "api" : "8002",
+                "static" : "8003",
+                "websocket": "8004",
+                "database": "27017"
+            },
+            "webService" : "http://www.gigigo.com/",
+            "wsService" : "ws://streaming.gigigo.com/",
+            "apiService" : "http://api.gigigo.com/",
+            "backService" : "http://cms.gigigo.com/",
+            "staticUrl" : "http://cms.gigigo.com/",
+            "dbHost" : "localhost",
+            "dbPort" : "27017",
+            "dbName" : "gigigo",
+            "dbUser" : "",
+            "dbPass" : ""
+        },
+
+        "quality" : {
+            "urlBase" : "cms.gigigo.com/",
+            "port": {
+                "cms": "8001",
+                "api" : "8002",
+                "static" : "8003",
+                "websocket": "8004",
+                "database": "27017"
+            },
+            "webService" : "http://www.q.gigigo.com/",
+            "wsService" : "ws://streaming.q.gigigo.com/",
+            "apiService" : "http://api.q.gigigo.com/",
+            "backService" : "http://cms.q.gigigo.com/",
+            "staticUrl" : "http://cms.q.gigigo.com/",
+            "dbHost" : "localhost",
+            "dbPort" : "27017",
+            "dbName" : "gigigo",
+            "dbUser" : "",
+            "dbPass" : ""
+        },
+
+        "dev" : {
+            "urlBase" : "localhost/",
+            "port": {
+                "front" : "8000",
+                "cms": "8001",
+                "api" : "8002",
+                "static" : "8003",
+                "websocket": "8004",
+                "database": "27017"
+            },
+            "webService" : "http://localhost:8000/",
+            "apiService" : "http://localhost:8002/",
+            "backService" : "http://localhost:8001/",
+            "staticUrl" : "http://localhost:8003/",
+            "dbHost" : "localhost",
+            "dbName" : "gigigo",
+            "dbUser" : "",
+            "dbPass" : ""
+        }
+    }
+}
